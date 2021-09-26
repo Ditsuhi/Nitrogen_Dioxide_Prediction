@@ -4,3 +4,9 @@ Nitrogen dioxide is one of the pollutants with the greatest health effects. Adva
 
 
 The dataset is available in the Zenodo repository with the following DOI:https://doi.org/10.5281/zenodo.5101390
+The _AirMetDataGeneration.ipynb_ and _TrafficDataGeneration.ipynb_ files contain Python code for generating data using ArcGIS Pro software, which as an input was used for prediction algorithms.
+The _BiConvLSTM_NO2.ipynb_ file inludes data preprocessing and predictive analysis.
+
+
+
+
