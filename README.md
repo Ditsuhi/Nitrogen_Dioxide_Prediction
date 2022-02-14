@@ -5,7 +5,7 @@ Nitrogen dioxide is one of the pollutants with the most significant health effec
 
 The data were obtained from Open data portal of the Madrid City Council (https://bit.ly/2TZzwEo) and the generated dataset using Arcpy library is available in the Zenodo repository (DOI:https://doi.org/10.5281/zenodo.5101390).
 
-The _AirMetDataGeneration.ipynb_ and _TrafficDataGeneration.ipynb_ files contain Python code for generating data using ArcGIS Pro software with Arcpy library, which as an input was used for prediction algorithms. The _BiConvLSTM_NO2.ipynb_ file inludes data preprocessing and predictive analysis.
+The _AirMetDataGeneration.ipynb_ and _TrafficDataGeneration.ipynb_ files contain Python code for generating data using ArcGIS Pro software with Arcpy library, which as an input was used for prediction algorithms. 
 
 
 
