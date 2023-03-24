@@ -7,8 +7,8 @@ The data were obtained from Open data portal of the Madrid City Council (https:/
 
 Below is a brief description of each file included in this repository:
 
-- _AirMetDataGeneration.ipynb_  combines processed air quality and meteorological data in a spatiotemporal dimension.
-- _TrafficDataGeneration.ipynb_  combines processed traffic data in a spatiotemporal dimension.
+- _AirMetDataGeneration.ipynb_  combines processed air quality and meteorological data in a spatiotemporal dimensions.
+- _TrafficDataGeneration.ipynb_  combines processed traffic data in a spatiotemporal dimensions.
 - _Data\_Preprocessing.ipynb_ refers to the data pre-processing step, including implementation of the nearest neighbour interpolation, outlier detection based on the statistical summary of the dataset, and the conversion of the wind direction (converting it to categorical data (north, east, south, west, southwest, northeast, southeast, northwest) and passing through One Hot Encoder). 
 - _Mutual\_Information.ipynb_ execute the Mutual information feature selection technique in order to select the most relevant features. 
 - _GridSearchCV\_BlockingTimeSeriesSplit.ipynb_ refers to parameter optimisation of the proposed model performed by applying GridSearchCV with Blocking Time Series Split. 
