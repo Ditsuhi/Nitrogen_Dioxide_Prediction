@@ -5,7 +5,14 @@ Nitrogen dioxide is one of the pollutants with the most significant health effec
 
 The data were obtained from Open data portal of the Madrid City Council (https://bit.ly/2TZzwEo) and the generated dataset using Arcpy library is available in the Zenodo repository (DOI:https://doi.org/10.5281/zenodo.6076631).
 
-The _AirMetDataGeneration.ipynb_ and _TrafficDataGeneration.ipynb_ files contain Python code for generating data using ArcGIS Pro software with Arcpy library, which as an input was used for prediction algorithms. 
+Below is a brief description of each file included in this repository:
+
+- _AirMetDataGeneration.ipynb_  contain Python code for generating data using ArcGIS Pro software with Arcpy library, which as an input was used for prediction algorithms.
+- _TrafficDataGeneration.ipynb_  contain Python code for generating data using ArcGIS Pro software with Arcpy library, which as an input was used for prediction algorithms.
+- _Data\_Preprocessing.ipynb_ refers to the data pre-processing step, including implementation of the nearest neighbour interpolation, outlier detection based on the statistical summary of the dataset, and the conversion of the wind direction (converting it to categorical data (north, east, south, west, southwest, northeast, southeast, northwest) and passing through One Hot Encoder). 
+- _Mutual\_Information.ipynb_ execute the Mutual information feature selection technique in order to select the most relevant features. 
+- _GridSearchCV\_BlockingTimeSeriesSplit.ipynb_ refers to parameter optimisation of the proposed model performed by applying GridSearchCV with Blocking Time Series Split. 
+- _Comparing\_BiConvLSTM\_ConvLSTM\_LSTM.ipynb_ develops and tests the BiConvLSTM method, and compared it with ConvLSTM and LSTM. 
 
 
 
